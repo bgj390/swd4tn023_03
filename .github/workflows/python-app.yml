@@ -30,3 +30,6 @@ jobs:
     - name: Test with pytest and run coverage
       run: |
         pytest --cov=./
+    - name: Generate coverage report
+      run: |
+        pytest --cov=./ --cov-report=xml
