@@ -36,4 +36,4 @@ jobs:
         pytest
     - name: Coverage
       run: |
-        pytest --cov=test_postinumerot
+        pytest --cov=test_postinumerot.py
