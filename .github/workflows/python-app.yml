@@ -32,4 +32,4 @@ jobs:
         pytest --cov=./
     - name: Generate coverage report
       run: |
-        pytest --cov=./ --cov-report=xml
+        coverage report -m
